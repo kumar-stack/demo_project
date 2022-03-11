@@ -1,0 +1,82 @@
+.cust-nav{
+    .navbar{
+        @media(min-width:320px) and (max-width:576px){
+            margin: 0;
+            padding: 0;
+        }
+        @media(min-width:577px) and (max-width:768px){
+            margin: 0;
+            padding: 0;
+        }
+        @media(min-width:769px) and (max-width:992px){
+            margin: 0;
+            padding: 0;
+        }
+        @media(min-width:993px) and (max-width:1200px){
+            margin: 0;
+            padding: 0;
+        }
+        @media(min-width:1201px) and (max-width:1400px){
+            margin: 0;
+            padding: 0;
+        }
+     
+        .container-fluid{
+            background: #2E3192 !important;
+            img{
+                width: 215px; 
+                margin-left: 50px;
+                @media(min-width:320px) and (max-width:576px){
+                    width: 140px;
+                    margin-left: 10px;
+                }
+                @media(min-width:577px) and (max-width:768px){
+                    width: 120px;
+                    margin-left: 20px;
+                }
+                @media(min-width:769px) and (max-width:992px){
+                    width: 140px;
+                    margin-left: 30px;
+                }
+                @media(min-width:993px) and (max-width:1200px){
+                    width: 160px;
+                    margin-left: 40px;
+                }              
+            }
+            button{
+               @media(min-width:320px) and (max-width:576px){
+                    background: white;
+                    font-size: 12px;
+               }
+               @media(min-width:577px) and (max-width:768px){
+                    background: white;
+                    font-size: 14px;
+                }
+                @media(min-width:769px) and (max-width:992px){
+                    background: white;
+                    font-size: 16px;
+                }
+                @media(min-width:993px) and (max-width:1200px){
+                    background: white;
+                    font-size: 18px;
+                }
+            }
+            .collapse{
+                .navbar-nav{
+                    width: 100%;
+                    justify-content: end;
+                    padding-right: 40px;
+                    .nav-link{
+                        color: white;
+                        padding: 0 22px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+

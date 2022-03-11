@@ -1,0 +1,29 @@
+@import"../3-module/navigation";
+@import"../3-module/footer";
+@import"../3-module/header";
+
+.navbar{
+    background: #2E3192 !important;
+    padding: 0;
+    margin: 0;
+    img{
+        width: 200px;
+        margin-left: 60px;
+        @media (min-width:320px) and (max-width:576px){
+            width: 180px;
+            margin-left: 0;
+        }
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+    #navbarNav{
+        justify-content: right;
+        font-size: 18px;
+        margin: 30px;
+        .nav-link{
+            color: white;
+            margin: 0 10px;
+        }
+    }
+}

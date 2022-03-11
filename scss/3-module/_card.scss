@@ -1,0 +1,162 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .box{
+        width: 250px;
+        text-align: center;
+        padding-bottom: 20px;  
+        cursor: pointer;   
+        img{
+            width: 170px;
+        }
+        &:hover .box-icon{
+            cursor: pointer;
+            background: #2E3192;
+            box-shadow: 0px 1px 2px 1px #2E3192;
+        }  
+        &:hover .box-icon i svg{           
+            fill: white;
+        } 
+        &:hover .see-more{
+                cursor: pointer;
+                background: #2E3192;
+                color: white;
+                box-shadow: 0px 1px 2px 1px #2E3192;
+                transition: ease-in-out;
+                transition-delay: 0.2s;
+                transition-duration: 0.2s;
+        } 
+        @media (min-width:320px) and (max-width:576px){
+            margin: 0 auto;
+            padding: 20px 0;
+            margin-bottom: 50px;
+        }
+        @media (min-width:577px) and (max-width:768px){
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        @media (min-width:769px) and (max-width:992.8px){
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        @media (min-width:993px) and (max-width:1200px){
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        @media (min-width:1201px) and (max-width:1400px){
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        
+        .box-icon{
+            width: 221px;
+            height: 221px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #43EEE4;
+            border-radius: 100%;
+            margin: 0 auto;
+            transition: ease-in-out;
+            transition-delay: 0.2s;
+            transition-duration: 0.2s;
+            @media(min-width:320px) and (max-width:576px){
+                width: 180px;
+                height: 180px;
+            }
+            .ibm1{
+                width: 140px;
+                &:hover{
+                    display: none;
+                }
+            }
+            .ibm{
+                display: none;
+                &:hover{
+                    background-image: url("");
+                    width: 140px;
+                }
+            }
+            .net-magic{
+                width: 120px;
+            }
+            .google-suite{
+                width: 110px;
+            }
+            .ice-warp{
+                width: 120px;
+                border-radius: 100%;
+            }
+            .redcliff{
+                width: 130px;
+            }
+            i{
+                svg{
+                    transition: ease-in all 0.2s;
+                    fill: #2e428b;
+                }
+            }
+        }
+        .box-text{
+            margin: 30px 0 41px 0;
+            h6{
+                margin-bottom: 20px;
+            }
+            @media(min-width:320px) and (max-width:576px){
+                margin: 20px 0;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        .see-more{
+            background: #43EEE4;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 30px;
+            letter-spacing: 1px;
+            font-size: 15px;
+            box-shadow: 0px 1px 2px 1px #43EEE4;
+           transition: ease-in-out;
+           transition-delay: 0.2s;
+           transition-duration: 0.2s;
+            @media (min-width:320px) and (max-width:576px){
+                font-size: 15px;
+                padding: 10px 20px;
+                font-weight: bolder;               
+              }
+              @media (min-width:577px) and (max-width:768px){
+                font-size: 15px;
+                padding: 10px 20px;
+                font-weight: bolder;               
+              }
+              @media (min-width:769px) and (max-width:992px){
+                font-size: 15px;
+                padding: 10px 20px;
+                font-weight: bolder;               
+              }
+              @media (min-width:993px) and (max-width:1200px){
+                font-size: 15px;
+                padding: 10px 20px;
+                font-weight: bolder;               
+              }
+              @media (min-width:1201px) and (max-width:1400px){
+                font-size: 15px;
+                padding: 10px 20px;
+                font-weight: bolder;               
+              }
+            a{
+                color: white;
+                text-decoration: none;
+            }  
+        }      
+    }
+    .icons{
+        margin-bottom: 0;
+    }
+}
+.bx-wrap{
+        justify-content: space-between !important;    
+}
+
