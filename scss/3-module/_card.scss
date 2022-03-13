@@ -9,6 +9,18 @@
         cursor: pointer;   
         img{
             width: 170px;
+            @media(min-width:320px) and (max-width:576px){
+                width: 150px;
+            }
+            @media(min-width:577px) and (max-width:768px){
+                width: 150px;
+            }
+            @media(min-width:769px) and (max-width:992px){
+                width: 150px;
+            }
+            @media(min-width:993px) and (max-width:1200px){
+                width: 160px;
+            }
         }
         &:hover .box-icon{
             cursor: pointer;
@@ -35,18 +47,22 @@
         @media (min-width:577px) and (max-width:768px){
             margin: 0 auto;
             padding: 20px 0;
+            margin-bottom: 50px;
         }
         @media (min-width:769px) and (max-width:992.8px){
             margin: 0 auto;
             padding: 20px 0;
+            margin-bottom: 50px;
         }
         @media (min-width:993px) and (max-width:1200px){
             margin: 0 auto;
             padding: 20px 0;
+            margin-bottom: 50px;
         }
         @media (min-width:1201px) and (max-width:1400px){
             margin: 0 auto;
             padding: 20px 0;
+            margin-bottom: 50px;
         }
         
         .box-icon{
@@ -67,9 +83,22 @@
             }
             .ibm1{
                 width: 140px;
+                @media(min-width:320px) and (max-width:576px){
+                    bottom: 120px;
+                }
+                @media(min-width:577px) and (max-width:768px){
+                    bottom: 120px;
+                }
+                @media(min-width:769px) and (max-width:992px){
+                    bottom: 120px;
+                }
+                @media(min-width:993px) and (max-width:1200px){
+                    bottom: 130px;
+                }
                 &:hover{
                     display: none;
                 }
+                
             }
             .ibm{
                 display: none;
@@ -90,6 +119,18 @@
             }
             .redcliff{
                 width: 130px;
+                @media(min-width:320px) and (max-width:576px){
+                    width: 120px;
+                }
+                @media(min-width:577px) and (max-width:768px){
+                    width: 120px;
+                }
+                @media(min-width:769px) and (max-width:992px){
+                    width: 120px;
+                }
+                @media(min-width:993px) and (max-width:1200px){
+                    width: 130px;
+                }
             }
             i{
                 svg{
@@ -122,12 +163,12 @@
            transition-delay: 0.2s;
            transition-duration: 0.2s;
             @media (min-width:320px) and (max-width:576px){
-                font-size: 15px;
+                font-size: 14px;
                 padding: 10px 20px;
                 font-weight: bolder;               
               }
               @media (min-width:577px) and (max-width:768px){
-                font-size: 15px;
+                font-size: 14px;
                 padding: 10px 20px;
                 font-weight: bolder;               
               }
@@ -137,11 +178,6 @@
                 font-weight: bolder;               
               }
               @media (min-width:993px) and (max-width:1200px){
-                font-size: 15px;
-                padding: 10px 20px;
-                font-weight: bolder;               
-              }
-              @media (min-width:1201px) and (max-width:1400px){
                 font-size: 15px;
                 padding: 10px 20px;
                 font-weight: bolder;               

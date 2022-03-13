@@ -70,6 +70,12 @@
                         color: white;
                         padding: 0 22px;
                         font-size: 18px;
+                        &:hover{
+                            color: #43EEE4;
+                            transition: ease-in-out;
+                            transition-delay: 0.2s;
+                            transition-duration: 0.2s;
+                        }
                     }
                 }
             }
