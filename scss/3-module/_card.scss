@@ -24,17 +24,17 @@
         }
         &:hover .box-icon{
             cursor: pointer;
-            background: #2E3192;
-            box-shadow: 0px 1px 2px 1px #2E3192;
+            background: $purple;
+            box-shadow: 0px 1px 2px 1px $purple;
         }  
         &:hover .box-icon i svg{           
-            fill: white;
+            fill: $white;
         } 
         &:hover .see-more{
                 cursor: pointer;
-                background: #2E3192;
-                color: white;
-                box-shadow: 0px 1px 2px 1px #2E3192;
+                background: $purple;
+                color: $white;
+                box-shadow: 0px 1px 2px 1px $purple;
                 transition: ease-in-out;
                 transition-delay: 0.2s;
                 transition-duration: 0.2s;
@@ -71,7 +71,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 3px solid #43EEE4;
+            border: 3px solid $blue;
             border-radius: 100%;
             margin: 0 auto;
             transition: ease-in-out;
@@ -135,7 +135,7 @@
             i{
                 svg{
                     transition: ease-in all 0.2s;
-                    fill: #2e428b;
+                    fill: $purple;
                 }
             }
         }
@@ -152,13 +152,13 @@
             }
         }
         .see-more{
-            background: #43EEE4;
+            background: $blue;
             display: inline-block;
             padding: 10px 20px;
             border-radius: 30px;
             letter-spacing: 1px;
             font-size: 15px;
-            box-shadow: 0px 1px 2px 1px #43EEE4;
+            box-shadow: 0px 1px 2px 1px $blue;
            transition: ease-in-out;
            transition-delay: 0.2s;
            transition-duration: 0.2s;
@@ -183,7 +183,7 @@
                 font-weight: bolder;               
               }
             a{
-                color: white;
+                color: $white;
                 text-decoration: none;
             }  
         }      
