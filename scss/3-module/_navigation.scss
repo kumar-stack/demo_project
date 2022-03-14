@@ -1,28 +1,10 @@
+@import"../0-variable/variable";
 .cust-nav{
     .navbar{
-        @media(min-width:320px) and (max-width:576px){
-            margin: 0;
-            padding: 0;
-        }
-        @media(min-width:577px) and (max-width:768px){
-            margin: 0;
-            padding: 0;
-        }
-        @media(min-width:769px) and (max-width:992px){
-            margin: 0;
-            padding: 0;
-        }
-        @media(min-width:993px) and (max-width:1200px){
-            margin: 0;
-            padding: 0;
-        }
-        @media(min-width:1201px) and (max-width:1400px){
-            margin: 0;
-            padding: 0;
-        }
-     
+       margin:0;
+       padding:0;
         .container-fluid{
-            background: #2E3192 !important;
+            background:$purple !important;
             img{
                 width: 215px; 
                 margin-left: 50px;
@@ -45,19 +27,19 @@
             }
             button{
                @media(min-width:320px) and (max-width:576px){
-                    background: white;
+                    background: $white;
                     font-size: 12px;
                }
                @media(min-width:577px) and (max-width:768px){
-                    background: white;
+                    background: $white;
                     font-size: 14px;
                 }
                 @media(min-width:769px) and (max-width:992px){
-                    background: white;
+                    background: $white;
                     font-size: 16px;
                 }
                 @media(min-width:993px) and (max-width:1200px){
-                    background: white;
+                    background: $white;
                     font-size: 18px;
                 }
             }
@@ -67,11 +49,11 @@
                     justify-content: end;
                     padding-right: 40px;
                     .nav-link{
-                        color: white;
+                        color: $white;
                         padding: 0 22px;
                         font-size: 18px;
                         &:hover{
-                            color: #43EEE4;
+                            color: $blue;
                             transition: ease-in-out;
                             transition-delay: 0.2s;
                             transition-duration: 0.2s;

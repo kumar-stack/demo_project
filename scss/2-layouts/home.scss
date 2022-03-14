@@ -4,7 +4,7 @@
 @import"../3-module/card";
 @import"../3-module/footer";
 @import"../3-module/banner";
-@use "sass-map";
+@import"../0-variable/variable";
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -16,7 +16,6 @@
 .service{
     margin: 0 auto;
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 50px;
     padding: 0 80px;
     @media (min-width:320px) and (max-width:576px){
@@ -43,8 +42,11 @@
         margin-bottom: 30px;
         color: purp;
         font-weight: bolder;
-        color: #2E3192;
+        color: $purple;
         font-size: 40px;
+        span{
+            color: $blue;
+        }
         @media (min-width:320px) and (max-width:576.98px){
             margin-bottom: 5px;
             font-size: 18px;
@@ -93,7 +95,7 @@
         margin-top: 20px;
     }
     h1{
-        color: #2E3192;
+        color: $purple;
         font-size: 40px;
         margin-top: 50px;
         font-weight: bolder;
@@ -109,6 +111,9 @@
         }
         @media (min-width:992px) and (max-width:1200px){
             font-size: 36px;
+        }
+        span{
+            color: $blue;
         }
     }
     p{

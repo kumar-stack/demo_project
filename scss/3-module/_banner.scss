@@ -5,7 +5,7 @@
     margin-top: 30px;
     h1{
         font-size: 40px;
-        color: #2E3192;
+        color: $purple;
         font-weight: bolder;
         padding-bottom: 30px;
         @media(min-width:320px) and (max-width:576px){
@@ -23,6 +23,9 @@
         @media(min-width:993px) and (max-width:1200px){
             width: 100%;
             font: size 28px;
+        }
+        span{
+            color: $blue;
         }
     }
     @media(min-width:320px) and (max-width:576px){
@@ -74,18 +77,18 @@
         }
     }
     .see-more{
-        background: #43EEE4;
+        background: $blue;
         display: inline-block;
         padding: 10px 20px;
         border-radius: 30px;
         letter-spacing: 1px;
         font-size: 15px;
         margin-bottom: 50px;
-        box-shadow: 0px 1px 2px 1px #43EEE4;
+        box-shadow: 0px 1px 2px 1px $blue;
         &:hover{
-            background: #2E3192;
-            color: white;
-            box-shadow: 0px 1px 2px 1px #2E3192;
+            background: $purple;
+            color: $white;
+            box-shadow: 0px 1px 2px 1px $purple;
             transition: ease-in-out;
             transition-delay: 0.2s;
             transition-duration: 0.2s;
@@ -110,7 +113,7 @@
             font-weight: bolder;
         }
         a{
-            color: white;
+            color: $white;
             text-decoration: none;
         }  
     }      

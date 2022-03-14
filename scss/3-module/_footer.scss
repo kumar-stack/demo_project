@@ -1,9 +1,7 @@
-
-
 footer{
-    background: #2E3192 !important;
+    background: $purple !important;
     height: 442px;
-    color: white;
+    color: $white;
     @media(min-width:320px) and (max-width:576.9px){
        height: 100%;
         padding-left: 10px;
@@ -27,30 +25,29 @@ footer{
      }
     .ftr-list{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         width: 1130px;
         margin: 0 auto;
         padding-top: 80px;
         @media(min-width:320px) and (max-width:576px){
             width: 100%;
-            display: block;
+           
         }
         @media(min-width:577px) and (max-width:768px){
             width: 100%;
-            display: block;
+            
+            
         }
         @media(min-width:769px) and (max-width:992px){
             width: 100%;
-            display: block;
+           
         }
         @media(min-width:992px) and (max-width:1200px){
             width: 100%;
-            display: block;
+        
         }
-        @media(min-width:1201px) and (max-width:1400px){
-           
-          
-        }
+      
         
         ul{
             list-style: none;
@@ -58,13 +55,13 @@ footer{
             width: 260px;
             @media(min-width:320px) and (max-width:576px){
                 padding: 0;
-                width: 100%;
                 margin-bottom: 50px;
+                width: 230px;
             }
             @media(min-width:577px) and (max-width:768px){
                 padding: 0;
-                width: 50%;
                 margin-bottom: 50px;
+                width: 230px;
             }
             @media(min-width:769) and (max-width:992px){
                 padding: 0;
@@ -73,12 +70,7 @@ footer{
             }
             @media(min-width:993px) and (max-width:1200px){
                 padding: 0;
-                width: 100%;
-                margin-bottom: 50px;
-            }
-            @media(min-width:1201px) and (max-width:1400px){
-                padding: 0;
-                
+                width: 230px;
                 margin-bottom: 50px;
             }
             .bold-text{
@@ -101,16 +93,12 @@ footer{
                     font-size: 18px;
                     margin-bottom: 20px;
                  }
-                 @media(min-width:1200px) and (max-width:1400px){
-                    font-size: 18px;
-                    margin-bottom: 20px;
-                 }
             }
             .lt-text{
                 font-weight: lighter;
                 font-size: 15px;
                 width: 245px;
-                color: white;
+                color:$white;
                 text-decoration: none;
                
                 @media(min-width:320px) and (max-width:576px){
@@ -124,9 +112,6 @@ footer{
                     margin-top: 2px;
                  }
                  @media(min-width:993px) and (max-width:1200px){
-                    margin-top: 2px;
-                 }
-                 @media(min-width:1200px) and (max-width:1400px){
                     margin-top: 2px;
                  }
             }

@@ -1,5 +1,5 @@
 .custom-carousel{
-    background:#2E3192;
+    background:$purple;
     
     .carousel{
         .carousel-control-prev{
@@ -44,8 +44,20 @@
             }
         }
         .carousel-indicators{
+            @media(min-width:320px) and (max-width:576px){
+                  bottom: -10px;
+            }
+            @media(min-width:577px) and (max-width:768px){
+               
+            }
+            @media(min-width:769px) and (max-width:992px){
+               
+            }
+            @media(min-width:993px) and (max-width:1200px){
+                
+            }
             button{
-                background-color: white;
+                background-color:$white;
             }
         }
         .carousel-inner{
@@ -54,16 +66,13 @@
                 height: 330px;
             }
             @media(min-width:577px) and (max-width:768px){
-               
+                height: 350px;
             }
             @media(min-width:769px) and (max-width:992px){
-                
+                height: 330px;
             }
             @media(min-width:993px) and (max-width:1200px){
-                
-            }
-            @media(min-width:1201px) and (max-width:1400px){
-                
+                height: 330px;
             }
             .carousel-item{
                 top: 10px;
@@ -75,47 +84,81 @@
                         margin: 0 auto;
                     }
                     @media(min-width:577px) and (max-width:768px){
-                       
+                        width: 60%;
+                        margin: 0 auto;
                     }
                     @media(min-width:769px) and (max-width:992px){
-                        
+                        width: 60%;
+                        margin: 0 auto;
                     }
                     @media(min-width:993px) and (max-width:1200px){
-                        
-                    }
-                    @media(min-width:1201px) and (max-width:1400px){
-                        
+                        width: 45%;
+                        margin-left: 80px;
                     }
                 }
                 .carousel-btn{
                     display: flex;
+                    flex-wrap: wrap;
                     margin-left: 310px;
                     margin-top: 25px;
                     @media(min-width:320px) and (max-width:420px){
-                        margin-top: 145px;
+                        margin-top: 140px;
                         margin-left: 30px;
-                      
-                        
+                        justify-content: center;                        
                     }
-                    @media(min-width:421px) and (max-width:576px){
-                        padding-top: 120px;
-                       
-                        
+                    @media(min-width:421px) and (max-width:450px){
+                        margin-top: 130px;
+                        margin-left: 0px;
+                        justify-content: center;                             
                     }
-                    @media(min-width:577px) and (max-width:768px){
-                       
+                    @media(min-width:451px) and (max-width:500px){
+                        margin-top: 110px;
+                        margin-left: 0px;
+                        justify-content: center;         
                     }
-                    @media(min-width:769px) and (max-width:992px){
-                        
+                    @media(min-width:501px) and (max-width:576px){
+                        margin-top: 90px;
+                        margin-left: 0px;
+                        justify-content: center;         
+                    }
+                    @media(min-width:577px) and (max-width:670px){
+                        margin-top: 120px;
+                        margin-left: 0px;
+                        justify-content: center;         
+                    }
+                    @media(min-width:671px) and (max-width:768px){
+                        margin-top: 100px;
+                        margin-left: 0px;
+                        justify-content: center;         
+                    }
+                    @media(min-width:769px) and (max-width:850px){
+                        margin-top: 70px;
+                        margin-left: 0px;
+                        justify-content: center;         
+                    }
+                    @media(min-width:851px) and (max-width:900px){
+                        margin-top: 65px;
+                        margin-left: 0px;
+                        justify-content: center;         
+                    }
+                    @media(min-width:901px) and (max-width:950px){
+                        margin-top: 50px;
+                        margin-left: 0px;
+                        justify-content: center;         
+                    }
+                    @media(min-width:951px) and (max-width:992px){
+                        margin-top: 40px;
+                        margin-left: 0px;
+                        justify-content: center;         
                     }
                     @media(min-width:993px) and (max-width:1200px){
-                        
+                        margin-top: 70px;
+                        margin-left: 0px;
+                        justify-content: center;         
                     }
-                    @media(min-width:1201px) and (max-width:1400px){
-                        
-                    }
+                  
                     .btn{
-                        color: white;
+                        color: $purple;
                         background: gainsboro;
                         padding: 10px 15px;
                         margin-right: 15px;
@@ -129,20 +172,18 @@
                            
                         }
                         @media(min-width:577px) and (max-width:768px){
-                           
+                            padding: 8px 10px;
                         }
                         @media(min-width:769px) and (max-width:992px){
-                            
+                            padding: 8px 10px;
                         }
                         @media(min-width:993px) and (max-width:1200px){
-                            
-                        }
-                        @media(min-width:1201px) and (max-width:1400px){
-                            
+                            padding: 8px 10px;
                         }
                         &:hover{
-                           background: #43EEE4;
-                           cursor: pointer;                      
+                           background: $blue;
+                           cursor: pointer; 
+                           color: $white;                    
                        }
                     }
                 }
@@ -152,35 +193,79 @@
                 left: 735px;
                 width: 500px;
                 @media(min-width:320px) and (max-width:420px){
-                    top: 88px;
-                    left: 35px;
-                    width: 250px;
-                    height: 50%;
+                    top: 115px;
+                    left: 0;
+                    width: 100%;
+                    height: 40%;
                     margin: 0 auto;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
                 @media(min-width:421px) and (max-width:576px){
-                    top: 115px;
-                    left: 35px;
-                    width: 250px;
-                    height: 50%;
+                    top: 150px;
+                    left: 0;
+                    width: 100%;
+                    height: 40%;
                     margin: 0 auto;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
-                @media(min-width:577px) and (max-width:768px){
-                   
+                @media(min-width:577px) and (max-width:700px){
+                    top: 150px;
+                    left: 0;
+                    width: 100%;
+                    height: 30%;
+                    margin: 0 auto;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                @media(min-width:701px) and (max-width:768px){
+                    top: 175px;
+                    left: 0;
+                    width: 100%;
+                    height: 40%;
+                    margin: 0 auto;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
                 @media(min-width:769px) and (max-width:992px){
-                    
+                    top: 180px;
+                    left: 0;
+                    width: 100%;
+                    height: 50%;
+                    margin: 0 auto;
+                    padding-left: 10px;
+                    padding-right: 10px; 
                 }
-                @media(min-width:993px) and (max-width:1200px){
-                    
+                @media(min-width:993px) and (max-width:1010px){
+                    height:100%;
+                    left: 520px;
+                    width: 420px;
                 }
-                @media(min-width:1201px) and (max-width:1400px){
-                    
+                @media(min-width:1011px) and (max-width:1050px){
+                    height:100%;
+                    left: 540px;
+                    width: 420px;
+                }
+                @media(min-width:1051px) and (max-width:1100px){
+                    height:100%;
+                    left: 560px;
+                    width: 420px;
+                }
+                @media(min-width:1101px) and (max-width:1150px){
+                    height:100%;
+                    left: 600px;
+                    width: 420px;
+                }
+                @media(min-width:1151px) and (max-width:1200px){
+                    height:100%;
+                    left: 650px;
+                    width: 420px;
                 }
                 h5{
                     font-size: 44px;
                     line-height: 60px;
-                    color: white;
+                    color: $white;
                     font-weight: bolder;
                     @media(min-width:320px) and (max-width:420px){
                         font-size: 18px;
@@ -193,16 +278,18 @@
                         letter-spacing: 1px;
                     }
                     @media(min-width:577px) and (max-width:768px){
-                       
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 1px;
                     }
                     @media(min-width:769px) and (max-width:992px){
-                        
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 1px;
                     }
                     @media(min-width:993px) and (max-width:1200px){
-                        
-                    }
-                    @media(min-width:1201px) and (max-width:1400px){
-                        
+                        font-size: 32px;
+                        line-height: 60px;
                     }
                 }
             }
