@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     .box{
-        width: 250px;
+        width: 300px;
         text-align: center;
         padding-bottom: 20px;  
         cursor: pointer;   
@@ -192,7 +192,5 @@
         margin-bottom: 0;
     }
 }
-.bx-wrap{
-        justify-content: space-between !important;    
-}
+
 
