@@ -114,8 +114,15 @@ footer{
                     margin-top: 2px;
                  }
             }
+            .data{
+                padding-right: 30px;
+            }
             .icon{
                 margin-right: 10px;
+            }
+            span{
+                margin-left: 28px;
+                display: block;
             }
             .ftr-hovr{
                 &:hover{
