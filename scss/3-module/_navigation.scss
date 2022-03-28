@@ -73,17 +73,29 @@
                 width: 100%;
                 justify-content: end;
                 padding-right: 40px;
-                .dropdown{
+                .outer-dropdown{
+                    &:hover{
+                        .menu-drop{
+                            display: block;
+                            .sub-item{
+                                &:hover{
+                                    .inner-dropdown{
+                                        display: block;                                    
+                                    }
+                                }
+                            }   
+                        }                          
+                    }
                     .dropdown-menu{
                         background-color:#2E3192;
                         border: 0px solid white;
                         box-shadow: 0 0 0 1px white;  
-                       
-                        }
                         a{
                             color: white;
-                            &:hover{;
+                            &:hover{
                                 color: #3FCED6;
+
+                            }
                         }
                     }
                 }
