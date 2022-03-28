@@ -1,6 +1,10 @@
 .floating-wpp{
     left: auto;
     right: 15px;
+    @media(min-width:320px) and (max-width:1920px){
+        right: 50px;
+        bottom: 17px;
+    }
     @media(min-width:1200px) and (max-width:1920px){
         right: 50px;
         bottom: 17px;
