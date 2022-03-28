@@ -16,7 +16,7 @@ $(document).ready(function () {
         });
       
         document.querySelectorAll('.dropdown-menu a').forEach(function(element){
-          element.addEventListener('click', function (e) {
+          element.addEventListener('hover', function (e) {
               let nextEl = this.nextElementSibling;
               if(nextEl && nextEl.classList.contains('submenu')) {	
                 e.preventDefault();
