@@ -77,34 +77,23 @@
                     &:hover{
                         .menu-drop{
                             display:inline-block;
-                            @media(min-width:320px) and (max-width:576px){
-                               display:inline-block;
-                           }
-                           @media(min-width:577px) and (max-width:768px){
-                               display:inline-block;
-                            }
-                            @media(min-width:769px) and (max-width:992px){
-                                display:inline-block;
-                            }
-                            @media(min-width:993px) and (max-width:1200px){
-                                display:inline-block;
-                            }
+                            @media(min-width:320px) and (max-width:576.98px){
+                                font-size: 14px;
+                            } 
+                            @media(min-width:577px) and (max-width:768.98px){
+                                font-size: 14px;
+                            } 
+                            @media(min-width:769px) and (max-width:992.98px){
+                                font-size: 14px;
+                            } 
+                            @media(min-width:993px) and (max-width:1200.98px){
+                                font-size: 14px;
+                            }   
                             .sub-item{
                                 &:hover{
                                     .inner-dropdown{
                                         display:inline-block;     
-                                        @media(min-width:320px) and (max-width:576px){
-                                            display:inline-block;
-                                        }
-                                        @media(min-width:577px) and (max-width:768px){
-                                            display:inline-block;
-                                         }
-                                         @media(min-width:769px) and (max-width:992px){
-                                             display:inline-block;
-                                         }
-                                         @media(min-width:993px) and (max-width:1200px){
-                                             display:inline-block;
-                                         }                               
+                                                                
                                     }
                                 }
                             }   
@@ -116,9 +105,21 @@
                         box-shadow: 0 0 0 1px white;  
                         a{
                             color: white;
+                            @media(min-width:320px) and (max-width:576.98px){
+                                font-size: 14px;
+                            } 
+                            @media(min-width:577px) and (max-width:768.98px){
+                                font-size: 14px;
+                            } 
+                            @media(min-width:769px) and (max-width:992.98px){
+                                font-size: 14px;
+                            } 
+                            @media(min-width:993px) and (max-width:1200.98px){
+                                font-size: 14px;
+                            }   
+
                             &:hover{
                                 color: #3FCED6;
-
                             }
                         }
                     }
@@ -127,6 +128,18 @@
                     color: $white;
                     padding: 0 22px;
                     font-size: 18px;
+                    @media(min-width:320px) and (max-width:576.98px){
+                        font-size: 14px;
+                    } 
+                    @media(min-width:577px) and (max-width:768.98px){
+                        font-size: 14px;
+                    } 
+                    @media(min-width:769px) and (max-width:992.98px){
+                        font-size: 14px;
+                    } 
+                    @media(min-width:993px) and (max-width:1200.98px){
+                        font-size: 14px;
+                    }       
                     &:hover{
                         color: $blue;
                         transition: ease-in-out;
