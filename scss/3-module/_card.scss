@@ -80,26 +80,9 @@
                 width: 180px;
                 height: 180px;
             }
-            
-            // .ibm1{
-            //     width: 140px;
-            //     @media(min-width:320px) and (max-width:576px){
-            //         bottom: 120px;
-            //     }
-            //     @media(min-width:577px) and (max-width:768px){
-            //         bottom: 120px;
-            //     }
-            //     @media(min-width:769px) and (max-width:992px){
-            //         bottom: 120px;
-            //     }
-            //     @media(min-width:993px) and (max-width:1200px){
-            //         bottom: 130px;
-            //     }
-            // }
-            // .ibm{
-            //     display: none;
-            //    width: 140px;
-            // }
+            .ibm{
+               width: 140px;
+            }
             .net-magic{
                 width: 120px;
             }
@@ -185,33 +168,6 @@
             }  
         }      
     }
-    // .ibm-icon{
-    //     .ibm{
-    //         display: none;
-    //     }
-    //     &:hover{
-    //         .ibm{
-    //             display: block;
-    //             width: 140px;
-    //             transition: 10s;
-    //             @media(min-width:320px) and (max-width:576px){
-    //                 bottom: 120px;
-    //             }
-    //             @media(min-width:577px) and (max-width:768px){
-    //                 bottom: 120px;
-    //             }
-    //             @media(min-width:769px) and (max-width:992px){
-    //                 bottom: 120px;
-    //             }
-    //             @media(min-width:993px) and (max-width:1200px){
-    //                 bottom: 130px;
-    //             }
-    //         }
-    //         .ibm1{
-    //             display: none;
-    //         }
-    //     }
-    // }
     .icons{
         margin-bottom: 0;
     }
