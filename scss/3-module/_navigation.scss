@@ -78,7 +78,7 @@
                         .menu-drop{
                             display:inline-block;
                             @media(min-width:320px) and (max-width:576.98px){
-                                font-size: 14px;
+                                font-size: 12px;
                             } 
                             @media(min-width:577px) and (max-width:768.98px){
                                 font-size: 14px;
@@ -88,9 +88,18 @@
                             } 
                             @media(min-width:993px) and (max-width:1200.98px){
                                 font-size: 14px;
-                            }   
+                            } 
+                            #menuclr{
+                              
+                            }  
                             .sub-item{
+                                &:focus{
+                                    color: $blue;
+                                } 
                                 &:hover{
+                                    .drpro{
+                                        transform: rotate(-90deg);
+                                    }
                                     .inner-dropdown{
                                         display:inline-block;     
                                                                 
@@ -106,7 +115,7 @@
                         a{
                             color: white;
                             @media(min-width:320px) and (max-width:576.98px){
-                                font-size: 14px;
+                                font-size: 12px;
                             } 
                             @media(min-width:577px) and (max-width:768.98px){
                                 font-size: 14px;
